@@ -25,6 +25,7 @@
 // следующее вычисление т.е. вычисление с полученным  результатом, без обнуления
 // работа с "," - вычисления и результаты
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -51,6 +52,7 @@
             
             [self.view addSubview:button]; // добавляю на view указатель tempButton
         }
+        
     }
     
 }
@@ -148,7 +150,7 @@
 
 #pragma mark - Action
 
-- (void) actionUpInsideButton:(UIButton*) sender { // метод при нажатии на кнопка
+- (void) actionUpInsideButton:(UIButton*) sender { // метод при нажатии на кнопку
     
     NSInteger count = sender.tag;
     
